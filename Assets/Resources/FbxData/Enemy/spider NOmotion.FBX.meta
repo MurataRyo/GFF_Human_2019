@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 2859525beb5a28945944461ac2928e76
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ahead
+    100002: Bkubi
+    100004: Bone004
+    100006: Bone005
+    100008: Bone005(mirrored)
+    100010: Bone006
+    100012: Bone006(mirrored)
+    100014: Bone007
+    100016: Bone007(mirrored)
+    100018: Bone008
+    100020: Bone008(mirrored)
+    100022: Bone009
+    100024: Bone009(mirrored)
+    100026: Bone010
+    100028: Bone010(mirrored)
+    100030: Bone011
+    100032: Bone011(mirrored)
+    100034: Bone012
+    100036: Bone012(mirrored)
+    100038: Bone013
+    100040: Bone013(mirrored)
+    100042: Bone014
+    100044: Bone014(mirrored)
+    100046: Bone015
+    100048: Bone015(mirrored)
+    100050: Bone016
+    100052: Bone016(mirrored)
+    100054: Bone017
+    100056: Bone017(mirrored)
+    100058: Bone018
+    100060: Bone018(mirrored)
+    100062: Bone019
+    100064: Bone019(mirrored)
+    100066: Bone020
+    100068: Bone020(mirrored)
+    100070: Bone021
+    100072: Bone021(mirrored)
+    100074: Bone022
+    100076: Bone022(mirrored)
+    100078: Bone023
+    100080: Bone023(mirrored)
+    100082: Bone024
+    100084: Bone024(mirrored)
+    100086: Bone025
+    100088: Bone025(mirrored)
+    100090: Cbody
+    100092: Dtagan01
+    100094: Dtagan02
+    100096: Dtagan03
+    100098: Dtagan04
+    100100: Eashi11
+    100102: Eashi12
+    100104: Eashi13
+    100106: Eashi14
+    100108: Eashi21
+    100110: Eashi22
+    100112: Eashi23
+    100114: Eashi24
+    100116: //RootNode
+    100118: ZBone001
+    100120: ZBone002
+    400000: Ahead
+    400002: Bkubi
+    400004: Bone004
+    400006: Bone005
+    400008: Bone005(mirrored)
+    400010: Bone006
+    400012: Bone006(mirrored)
+    400014: Bone007
+    400016: Bone007(mirrored)
+    400018: Bone008
+    400020: Bone008(mirrored)
+    400022: Bone009
+    400024: Bone009(mirrored)
+    400026: Bone010
+    400028: Bone010(mirrored)
+    400030: Bone011
+    400032: Bone011(mirrored)
+    400034: Bone012
+    400036: Bone012(mirrored)
+    400038: Bone013
+    400040: Bone013(mirrored)
+    400042: Bone014
+    400044: Bone014(mirrored)
+    400046: Bone015
+    400048: Bone015(mirrored)
+    400050: Bone016
+    400052: Bone016(mirrored)
+    400054: Bone017
+    400056: Bone017(mirrored)
+    400058: Bone018
+    400060: Bone018(mirrored)
+    400062: Bone019
+    400064: Bone019(mirrored)
+    400066: Bone020
+    400068: Bone020(mirrored)
+    400070: Bone021
+    400072: Bone021(mirrored)
+    400074: Bone022
+    400076: Bone022(mirrored)
+    400078: Bone023
+    400080: Bone023(mirrored)
+    400082: Bone024
+    400084: Bone024(mirrored)
+    400086: Bone025
+    400088: Bone025(mirrored)
+    400090: Cbody
+    400092: Dtagan01
+    400094: Dtagan02
+    400096: Dtagan03
+    400098: Dtagan04
+    400100: Eashi11
+    400102: Eashi12
+    400104: Eashi13
+    400106: Eashi14
+    400108: Eashi21
+    400110: Eashi22
+    400112: Eashi23
+    400114: Eashi24
+    400116: //RootNode
+    400118: ZBone001
+    400120: ZBone002
+    2100000: 05 - Default
+    2100002: 'Material #121'
+    2100004: 'Material #143'
+    2100006: 'Material #165'
+    2100008: 'Material #187'
+    4300000: Cbody
+    4300002: Ahead
+    4300004: Bkubi
+    4300006: Dtagan01
+    4300008: Dtagan02
+    4300010: Dtagan03
+    4300012: Dtagan04
+    4300014: Eashi12
+    4300016: Eashi11
+    4300018: Eashi13
+    4300020: Eashi14
+    4300022: Eashi21
+    4300024: Eashi22
+    4300026: Eashi24
+    4300028: Eashi23
+    9500000: //RootNode
+    13700000: Ahead
+    13700002: Bkubi
+    13700004: Cbody
+    13700006: Dtagan01
+    13700008: Dtagan02
+    13700010: Dtagan03
+    13700012: Dtagan04
+    13700014: Eashi11
+    13700016: Eashi12
+    13700018: Eashi13
+    13700020: Eashi14
+    13700022: Eashi21
+    13700024: Eashi22
+    13700026: Eashi23
+    13700028: Eashi24
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

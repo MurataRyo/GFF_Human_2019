@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Block
+  - Enemy
+  - CableBlock
+  - CablePositon
+  - CableGround
+  - CableMoveBlock
+  - CableSwitchBlock
+  - Boss
+  - BugBlock
+  - Bug
+  - CableParent
+  - Cable
+  - Wing
+  - Net
+  - Bullet
+  - ConveyorChild
+  - Mesh
+  - WindCamera
+  - Canvas
+  - StartPosition
+  - EndPosition
+  - Gimmick
+  - Camera
+  - DungBullet
+  - Volcano
+  - MagmaController
+  - GimmickParent
+  - PlayerBullet
+  - ReloadBlock
+  - GimmickCol
+  - RenbanMovie
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Ground
+  - Block
+  - Enemy
+  - CableBlock
+  - Wind
+  - Boss
+  - Net
+  - Player
+  - Bullet
+  - NetGround
+  - DungBullet
+  - Volcano
+  - Transparent
+  - VolcanoTransparent
+  - 
+  - MoveBlock
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

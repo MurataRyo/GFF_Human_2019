@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: 064fca19f6d71664185c66311fbc9fcf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aatama
+    100002: //RootNode
+    100004: Bkarada
+    100006: Bone002
+    100008: Bone002 1
+    100010: Bone003
+    100012: Bone004
+    100014: Bone005
+    100016: Bone006
+    100018: Bone007
+    100020: Bone008
+    100022: Bone009
+    100024: Bone010
+    100026: Bone011
+    100028: Bone012
+    100030: Bone013
+    100032: Bone014
+    100034: Bone015
+    100036: Bone016
+    100038: Bone017
+    100040: Bone018
+    100042: Bone019
+    100044: Bone020
+    100046: Bone021
+    100048: Bone022
+    100050: Bone023
+    100052: Bone024
+    100054: Bone025
+    100056: Bone026
+    100058: Bone027
+    100060: Bone028
+    100062: Bone029
+    100064: Chara
+    100066: connectBone001
+    100068: connectBone002
+    100070: connectBone003
+    100072: connectBone004
+    100074: connectBone005
+    100076: connectBone006
+    100078: connectBone007
+    100080: Dasi1
+    100082: Easi2
+    100084: Fasi3
+    100086: Gasi4
+    100088: Hasi5
+    100090: Iasi6
+    100092: ZBone001
+    400000: Aatama
+    400002: //RootNode
+    400004: Bkarada
+    400006: Bone002
+    400008: Bone002 1
+    400010: Bone003
+    400012: Bone004
+    400014: Bone005
+    400016: Bone006
+    400018: Bone007
+    400020: Bone008
+    400022: Bone009
+    400024: Bone010
+    400026: Bone011
+    400028: Bone012
+    400030: Bone013
+    400032: Bone014
+    400034: Bone015
+    400036: Bone016
+    400038: Bone017
+    400040: Bone018
+    400042: Bone019
+    400044: Bone020
+    400046: Bone021
+    400048: Bone022
+    400050: Bone023
+    400052: Bone024
+    400054: Bone025
+    400056: Bone026
+    400058: Bone027
+    400060: Bone028
+    400062: Bone029
+    400064: Chara
+    400066: connectBone001
+    400068: connectBone002
+    400070: connectBone003
+    400072: connectBone004
+    400074: connectBone005
+    400076: connectBone006
+    400078: connectBone007
+    400080: Dasi1
+    400082: Easi2
+    400084: Fasi3
+    400086: Gasi4
+    400088: Hasi5
+    400090: Iasi6
+    400092: ZBone001
+    2100000: 07 - Default
+    4300000: Chara
+    4300002: Aatama
+    4300004: Bkarada
+    4300006: Easi2
+    4300008: Dasi1
+    4300010: Fasi3
+    4300012: Gasi4
+    4300014: Hasi5
+    4300016: Iasi6
+    7400000: AntAttack
+    7400002: AntMove
+    9500000: //RootNode
+    13700000: Aatama
+    13700002: Bkarada
+    13700004: Chara
+    13700006: Dasi1
+    13700008: Easi2
+    13700010: Fasi3
+    13700012: Gasi4
+    13700014: Hasi5
+    13700016: Iasi6
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 96d5ea9bcaaec264a87a6f7f1e2a0667, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AntAttack
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AntMove
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

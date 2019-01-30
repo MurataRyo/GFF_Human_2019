@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: cf38373338d3c0c4b81ae10c696463f9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Aatama
+    100002: Bkarada
+    100004: Bone002
+    100006: Bone003
+    100008: Bone005
+    100010: Bone006
+    100012: Bone008
+    100014: Bone009
+    100016: Bone011
+    100018: Bone012
+    100020: Bone013
+    100022: Bone014
+    100024: Bone015
+    100026: Bone016
+    100028: connectBone001
+    100030: connectBone002
+    100032: connectBone003
+    100034: connectBone004
+    100036: connectBone005
+    100038: connectBone006
+    100040: Csayoku
+    100042: Cuyoku
+    100044: Dasi01
+    100046: Dasi02
+    100048: Dasi03
+    100050: Dasi04
+    100052: Dasi05
+    100054: Dasi06
+    100056: Ehonoo1
+    100058: Ehonoo2
+    100060: //RootNode
+    100062: ZaaCHUSHIN
+    100064: ZaMIGIMAE
+    100066: ZbHIDARIMAE
+    100068: ZcMIGINAKA
+    100070: ZdHIDARINAKA
+    100072: ZeMIGIUSHIRO
+    100074: ZfHIDARIUSHIRO
+    400000: Aatama
+    400002: Bkarada
+    400004: Bone002
+    400006: Bone003
+    400008: Bone005
+    400010: Bone006
+    400012: Bone008
+    400014: Bone009
+    400016: Bone011
+    400018: Bone012
+    400020: Bone013
+    400022: Bone014
+    400024: Bone015
+    400026: Bone016
+    400028: connectBone001
+    400030: connectBone002
+    400032: connectBone003
+    400034: connectBone004
+    400036: connectBone005
+    400038: connectBone006
+    400040: Csayoku
+    400042: Cuyoku
+    400044: Dasi01
+    400046: Dasi02
+    400048: Dasi03
+    400050: Dasi04
+    400052: Dasi05
+    400054: Dasi06
+    400056: Ehonoo1
+    400058: Ehonoo2
+    400060: //RootNode
+    400062: ZaaCHUSHIN
+    400064: ZaMIGIMAE
+    400066: ZbHIDARIMAE
+    400068: ZcMIGINAKA
+    400070: ZdHIDARINAKA
+    400072: ZeMIGIUSHIRO
+    400074: ZfHIDARIUSHIRO
+    2100000: 01 - Default
+    2300000: Aatama
+    2300002: Bkarada
+    2300004: Csayoku
+    2300006: Cuyoku
+    3300000: Aatama
+    3300002: Bkarada
+    3300004: Csayoku
+    3300006: Cuyoku
+    4300000: Bkarada
+    4300002: Csayoku
+    4300004: Dasi05
+    4300006: Dasi06
+    4300008: Dasi03
+    4300010: Dasi04
+    4300012: Dasi01
+    4300014: Dasi02
+    4300016: Ehonoo1
+    4300018: Aatama
+    4300020: Cuyoku
+    4300022: Ehonoo2
+    7400000: TentouMove
+    7400002: TentouAttack
+    9500000: //RootNode
+    13700000: Dasi01
+    13700002: Dasi02
+    13700004: Dasi03
+    13700006: Dasi04
+    13700008: Dasi05
+    13700010: Dasi06
+    13700012: Ehonoo1
+    13700014: Ehonoo2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 6799793f143c8ac4ba35e9fd221c26b0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TentouMove
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: TentouAttack
+      takeName: Take 001
+      firstFrame: 31
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

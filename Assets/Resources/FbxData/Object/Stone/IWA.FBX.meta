@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: d65b17e3548d6104e85d3be71bc3ea5b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cylinder011
+    100002: //RootNode
+    100004: "\u30A4\u30D9\u30F3\u30C8 001"
+    100006: "\u30A4\u30D9\u30F3\u30C8 002"
+    100008: "\u30A4\u30D9\u30F3\u30C8 003"
+    100010: "\u30A4\u30D9\u30F3\u30C8 004"
+    100012: "\u30A4\u30D9\u30F3\u30C8 005"
+    100014: "\u30A4\u30D9\u30F3\u30C8 006"
+    100016: "\u30A4\u30D9\u30F3\u30C8 007"
+    100018: "\u30A4\u30D9\u30F3\u30C8 008"
+    100020: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 001"
+    100022: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 002"
+    100024: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 003"
+    100026: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 004"
+    100028: "\u30D5\u30A9\u30FC\u30B9 001"
+    100030: "\u30D5\u30A9\u30FC\u30B9 002"
+    100032: "\u30D5\u30A9\u30FC\u30B9 003"
+    100034: "\u30D5\u30A9\u30FC\u30B9 004"
+    100036: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 001"
+    100038: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 002"
+    100040: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 003"
+    100042: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 004"
+    100044: "\u4F4D\u7F6E\u30A2\u30A4\u30B3\u30F3 001"
+    100046: "\u4F4D\u7F6E\u30A2\u30A4\u30B3\u30F3 002"
+    100048: "\u4F4D\u7F6E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8 001"
+    100050: "\u4F4D\u7F6E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8 002"
+    100052: "\u56DE\u8EE2 001"
+    100054: "\u56DE\u8EE2 002"
+    100056: "\u56DE\u8EE2 003"
+    100058: "\u56DE\u8EE2 004"
+    100060: "\u767A\u751F 001"
+    100062: "\u767A\u751F 002"
+    100064: "\u767A\u751F 003"
+    100066: "\u767A\u751F 004"
+    100068: "\u8868\u793A 001"
+    100070: "\u8868\u793A 002"
+    100072: "\u8868\u793A 003"
+    100074: "\u8868\u793A 004"
+    100076: "\u8868\u793A 005"
+    100078: "\u8868\u793A 006"
+    100080: "\u8868\u793A 007"
+    100082: "\u8868\u793A 008"
+    400000: Cylinder011
+    400002: //RootNode
+    400004: "\u30A4\u30D9\u30F3\u30C8 001"
+    400006: "\u30A4\u30D9\u30F3\u30C8 002"
+    400008: "\u30A4\u30D9\u30F3\u30C8 003"
+    400010: "\u30A4\u30D9\u30F3\u30C8 004"
+    400012: "\u30A4\u30D9\u30F3\u30C8 005"
+    400014: "\u30A4\u30D9\u30F3\u30C8 006"
+    400016: "\u30A4\u30D9\u30F3\u30C8 007"
+    400018: "\u30A4\u30D9\u30F3\u30C8 008"
+    400020: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 001"
+    400022: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 002"
+    400024: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 003"
+    400026: "\u30B7\u30A7\u30A4\u30D7 \u30A4\u30F3\u30B9\u30BF\u30F3\u30B9 004"
+    400028: "\u30D5\u30A9\u30FC\u30B9 001"
+    400030: "\u30D5\u30A9\u30FC\u30B9 002"
+    400032: "\u30D5\u30A9\u30FC\u30B9 003"
+    400034: "\u30D5\u30A9\u30FC\u30B9 004"
+    400036: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 001"
+    400038: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 002"
+    400040: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 003"
+    400042: "\u30EC\u30F3\u30C0\u30EA\u30F3\u30B0 004"
+    400044: "\u4F4D\u7F6E\u30A2\u30A4\u30B3\u30F3 001"
+    400046: "\u4F4D\u7F6E\u30A2\u30A4\u30B3\u30F3 002"
+    400048: "\u4F4D\u7F6E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8 001"
+    400050: "\u4F4D\u7F6E\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8 002"
+    400052: "\u56DE\u8EE2 001"
+    400054: "\u56DE\u8EE2 002"
+    400056: "\u56DE\u8EE2 003"
+    400058: "\u56DE\u8EE2 004"
+    400060: "\u767A\u751F 001"
+    400062: "\u767A\u751F 002"
+    400064: "\u767A\u751F 003"
+    400066: "\u767A\u751F 004"
+    400068: "\u8868\u793A 001"
+    400070: "\u8868\u793A 002"
+    400072: "\u8868\u793A 003"
+    400074: "\u8868\u793A 004"
+    400076: "\u8868\u793A 005"
+    400078: "\u8868\u793A 006"
+    400080: "\u8868\u793A 007"
+    400082: "\u8868\u793A 008"
+    2100000: 02 - Default
+    2300000: Cylinder011
+    3300000: Cylinder011
+    4300000: Cylinder011
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: e362ac369d5fa9540801f95ccb700cf9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
