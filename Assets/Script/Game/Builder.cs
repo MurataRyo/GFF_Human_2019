@@ -28,6 +28,7 @@ public class Builder : MonoBehaviour
         NavMesh.AddNavMeshData(data);
     }
 
+    //流砂時の移動
     public void Default(GameObject enemy)
     {
         NavMesh.RemoveAllNavMeshData();

@@ -15,7 +15,7 @@ public class TextureSize : MonoBehaviour {
         
     }
 
-    public void GetTextureOne()
+    protected void GetTextureOne()
     {
         if (GetComponent<Renderer>())
         {
@@ -24,7 +24,7 @@ public class TextureSize : MonoBehaviour {
         }
     }
 
-    public void GetTexture()
+    protected void GetTexture()
     {
         if (GetComponent<Renderer>())
         {

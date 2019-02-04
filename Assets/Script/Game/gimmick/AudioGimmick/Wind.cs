@@ -38,7 +38,6 @@ public class Wind : BgmGimmick
     public override void LateUpdate()
     {
         ParticleC();
-
         AudioC();
     }
 
