@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4644824034339384}
   - component: {fileID: 33672306400996832}
   - component: {fileID: 23342599975830624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cone004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4953158512450108}
   - component: {fileID: 33251823672198144}
   - component: {fileID: 23619719122897660}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cone002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4660974998344538}
   - component: {fileID: 33707100721841858}
   - component: {fileID: 23179829525016226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cone005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4566717915866290}
   - component: {fileID: 33502863661237966}
   - component: {fileID: 23075697887126380}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4082877010840758}
   - component: {fileID: 33374699611593442}
   - component: {fileID: 23599504352516448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cone001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4225204431803286}
   - component: {fileID: 33473291906046530}
   - component: {fileID: 23382019447455930}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cone003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4404501570623222}
-  m_Layer: 0
+  - component: {fileID: 65344656699346020}
+  m_Layer: 10
   m_Name: Wood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,8 +161,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1888331995498650}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 34.84, y: 1, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4082877010840758}
@@ -477,3 +478,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1422426829100340}
   m_Mesh: {fileID: 4300010, guid: 49a93a3670fdc7e40809bfad69fb78fb, type: 3}
+--- !u!65 &65344656699346020
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1888331995498650}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4.5, z: 1}
+  m_Center: {x: 0, y: 2.25, z: 0}

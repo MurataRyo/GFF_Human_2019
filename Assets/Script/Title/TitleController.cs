@@ -20,7 +20,7 @@ public class TitleController : MonoBehaviour
     bool ngFlag = false;
     bool scrollFlag = false;
     bool selectFlag = false;
-    bool tutorialChoice = false;
+    bool tutorialChoice = true;
 
     void Start()
     {

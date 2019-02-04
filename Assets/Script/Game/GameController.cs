@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
     //現在のステージ(選択している)
     public static StageNumber stageNumber = StageNumber.Stage0;
     //選択可能なステージ
-    public static StageNumber clearNumber = StageNumber.Stage1;
+    public static StageNumber clearNumber = StageNumber.Stage3;
 
     //砂漠ステージ
     //ステージ名を順番に記入

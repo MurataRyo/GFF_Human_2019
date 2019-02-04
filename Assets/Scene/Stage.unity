@@ -3526,8 +3526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8675b8ae0970044ad7f8ebfc4f4e69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ROTATE_SPEED_TPS: 45
-  ROTATE_SPEED_FPS: 240
+  ROTATE_SPEED_TPS: 120
+  ROTATE_SPEED_FPS: 200
   assistSpeed: 80
   layerMask:
     serializedVersion: 2
