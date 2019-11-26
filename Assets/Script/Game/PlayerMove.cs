@@ -55,9 +55,9 @@ public class PlayerMove : MonoBehaviour
 
     //重力関連---------------------------------------------------------------------
 
-    Vector3 objectVelosity = Vector3.zero;   // オブジェクトから受ける力
+    public Vector3 objectVelosity = Vector3.zero;   // オブジェクトから受ける力
     Vector3 windVelosity = Vector3.zero;     // 風の力
-    float gravity = 0f;                      // 現在の重力
+    public float gravity = 0f;                      // 現在の重力
     float gravitySize = -9.81f;              // 重力の大きさ
     const float DEATH_HEIGHT = -6f;          // 死ぬ高さ（地面からの距離。落下しではない）
     [HideInInspector]
@@ -101,6 +101,9 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0)
+            return;
+
         PointerMove();
         //プレイヤーが自分で動く力
         Vector3 velocity = Vector3.zero;
@@ -514,11 +517,12 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (col.gameObject.transform.parent && col.gameObject.transform.parent.transform.parent && col.gameObject.transform.parent.gameObject.transform.parent.GetComponent<QuickSand>())
-        {
-            stopPlayer = true;
-            col.gameObject.transform.parent.gameObject.transform.parent.GetComponent<QuickSand>().OnTrigger(gameObject, ref objectVelosity, ref gravity);
-        }
+        //if (col.gameObject.transform.parent && col.gameObject.transform.parent.transform.parent && col.gameObject.transform.parent.gameObject.transform.parent.GetComponent<QuickSand>())
+        //{
+        //    stopPlayer = true;
+        //    col.gameObject.transform.parent.gameObject.transform.parent.GetComponent<QuickSand>().OnTrigger(gameObject, ref objectVelosity, ref gravity);
+        //}
+
         //当たったのが敵でなおかつ攻撃判定なら
         if (col.gameObject.GetComponent<EnemyMove>() && col.gameObject.GetComponent<EnemyMove>().hitFlag)
         {

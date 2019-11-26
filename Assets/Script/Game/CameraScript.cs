@@ -42,7 +42,7 @@ public class CameraScript : MonoBehaviour
         if (!heightLock && playerScript.playerLife != 0)
         {
             // カメラの切り替え
-            if(!playerScript.stopPlayer)
+            if (!playerScript.stopPlayer)
             {
                 if (playerScript.cableScript.chilledBlock == null && !playerScript.cableScript.cableLock && (xBox.Button(XBox.Str.LB)))
                 {
@@ -53,12 +53,20 @@ public class CameraScript : MonoBehaviour
                     lookOnFlag = false;
                 }
             }
-            
+
 
             //FPSとTPSでカメラの高さを変更する
             transform.position = player.transform.position + (lookOnFlag ? new Vector3(0f, 1.15f, 0f) - transform.forward * 0.15f : new Vector3(0f, 1.5f, 0f));     // カメラを自機に追従させる
             if (gameController.gameMode == GameController.GameMode.play)
             {
+                rotateCameraAngle();
+
+                if (playerScript.cableScript.chilledBlock == null && !playerScript.cableScript.cableLock &&
+                    xBox.ButtonDown(XBox.Str.LB) && playerScript.cableFlag && !playerScript.stopPlayer)
+                {
+                    mainCamera.transform.LookAt(playerScript.cableScript.cablePosition.transform.position);
+                }
+
                 float cameraDistance;
 
                 //FPS時の処理
@@ -90,40 +98,12 @@ public class CameraScript : MonoBehaviour
                     }
                     cameraDistance = cameraMaxDistance;
                     //tpsに移行が終わってる時
-                    if (cameraMaxDistance == TPS_MAX_DISTANCE)
-                    {
-                        //1回目は-0.05したくないので余分に足しておく
-                        Vector3 foward = this.transform.forward += new Vector3(0f, 0.05f, 0f);
-                        //めり込まないところを探す
-                        do
-                        {
-                            foward -= new Vector3(0f, 0.05f, 0f);
-                            foward.Normalize();
-                            if (Physics.SphereCast(this.transform.position, 0.02f, -foward, out hit, cameraMaxDistance, layerMask))
-                            {
-                                cameraDistance = hit.distance;
-                            }
-                        }
-                        //無限ループしないように上限を設定する
-                        while (cameraDistance <= 1.5f && foward.y >= -0.95);
-                        //カメラの向きと場所の変更
-                        mainCamera.transform.position = transform.position + -foward * cameraDistance;
-                    }
-                    else
-                    {
-                        //カメラの向きと場所の変更
-                        mainCamera.transform.position = transform.position + -transform.forward * cameraDistance;
-                    }
-                    mainCamera.transform.LookAt(transform.position);
-                    transform.rotation = Quaternion.LookRotation(mainCamera.transform.forward);
-                }
-                rotateCameraAngle();
+                    //カメラの向きと場所の変更
+                    mainCamera.transform.position = transform.position + -transform.forward * cameraDistance;
 
-                if (playerScript.cableScript.chilledBlock == null && !playerScript.cableScript.cableLock &&
-                    xBox.ButtonDown(XBox.Str.LB) && playerScript.cableFlag && !playerScript.stopPlayer)
-                {
-                    mainCamera.transform.LookAt(playerScript.cableScript.cablePosition.transform.position);
+                    mainCamera.transform.LookAt(transform.position);
                 }
+
             }
         }
     }

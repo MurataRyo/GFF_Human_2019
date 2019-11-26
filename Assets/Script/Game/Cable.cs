@@ -64,6 +64,9 @@ public class Cable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Time.timeScale == 0)
+            return;
+
         //ケーブルが伸び切るかオブジェクトに当たった時
         if (usbRange == MAX_SCALE && flag)
         {
@@ -171,16 +174,17 @@ public class Cable : MonoBehaviour
                             }
 
                             gameController.SeSoundLoad(AudioController.Se.Player_UsbSet);
+                            //USBの角度変更
+                            transform.eulerAngles = child.eulerAngles;
+                            //場所変更
+                            cablePosition.transform.position = child.transform.position;
+                            //Usbを指すための角度変更
+                            cablePosition.transform.eulerAngles = child.eulerAngles;
+
                             if (hitOb.tag == "CableMoveBlock")
                             {
                                 cableMoveBlock = hitOb.gameObject.GetComponent<CableMoveBlock>();
                                 playerMove.cableFlag = false;
-                                //USBの角度変更
-                                transform.eulerAngles = child.eulerAngles;
-                                //場所変更
-                                cablePosition.transform.position = child.transform.position;
-                                //Usbを指すための角度変更
-                                cablePosition.transform.eulerAngles = child.eulerAngles;
                                 //子オブジェクトに設定
                                 hitOb.transform.parent = cablePosition.transform;
                                 flag = false;
@@ -200,13 +204,6 @@ public class Cable : MonoBehaviour
                                 childPort = hitOb;
                                 portBlockScript = childPort.GetComponent<PortBlock>();
                                 ChildGimmickSearch(gimmickParent.transform, portBlockScript.portName);
-
-                                //場所変更
-                                cablePosition.transform.position = child.transform.position;
-                                //Usbを指すための角度変更
-                                cablePosition.transform.eulerAngles = child.eulerAngles;
-                                //USBの角度変更
-                                transform.eulerAngles = child.eulerAngles;
                                 cableFlag = true;
                                 cableLockPositon = cablePosition.transform.position;
                                 cableLock = true;
@@ -500,11 +497,13 @@ public class Cable : MonoBehaviour
         float height = 0.0f;
         float scaleX = child.transform.localScale.x;
         float scaleZ = child.transform.localScale.z;
+
         //4つの角からレイをうつ
         for (int i = 0; i < 4; i++)
         {
             //子オブジェクトの地面の少し斜め前からレイを飛ばして地面に当たると上に行く
-            BlockCast(child, range, BlockPosition(child, i < 2 ? scaleX : 0f, i % 2 == 0 ? scaleZ : 0f), ref heightFlag, ref height, out hit);
+            BlockCast(child, range,
+                BlockPosition(child, i < 2 ? scaleX : 0f, i % 2 == 0 ? scaleZ : 0f), ref heightFlag, ref height, out hit);
         }
         if (heightFlag)
         {
@@ -516,7 +515,9 @@ public class Cable : MonoBehaviour
     //ブロック上下用
     void BlockCast(GameObject gameObject, float range, Vector3 position, ref bool flag, ref float height, out RaycastHit hit)
     {
-        Physics.Raycast(gameObject.transform.position + new Vector3(0f, range, 0f) + (gameObject.transform.up * (range)) + position, -Vector3.up, out hit, 1f, blockMask);
+        Physics.Raycast(gameObject.transform.position + new Vector3(0f, range, 0f)
+                        + (gameObject.transform.up * (range)) + position, -Vector3.up,
+                        out hit, 1f, blockMask);
         if (height < hit.point.y - gameObject.transform.position.y)
         {
             flag = true;
@@ -686,7 +687,7 @@ public class Cable : MonoBehaviour
         DestoryFlag();
     }
 
-    bool AboutFloat(float i,float j,float about)
+    bool AboutFloat(float i, float j, float about)
     {
         float k = Mathf.DeltaAngle(i, j);
         return k < about && k > -about;

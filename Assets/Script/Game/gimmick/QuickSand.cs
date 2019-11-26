@@ -32,6 +32,15 @@ public class QuickSand : SwitchFlag
 
     }
 
+    public void OnTriggerStay(Collider col)
+    {
+        if (col.gameObject.tag != "Player")
+            return;
+        PlayerMove playerMove = col.gameObject.GetComponent<PlayerMove>();
+        playerMove.stopPlayer = true;
+        OnTrigger(col.gameObject, ref playerMove.objectVelosity, ref playerMove.gravity);
+    }
+
     public void OnTrigger(GameObject go, ref Vector3 objectVelosity, ref float gravity)
     {
         if (AboutFloat(go.transform.position.x, centerPos.x) && AboutFloat(go.transform.position.z, centerPos.z))
